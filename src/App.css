@@ -152,7 +152,7 @@ h6 {
     margin-left: 4rem;
   }
   .nav-links a {
-    margin: 0 1rem;
+    margin: 0.5rem 0.7rem;
     padding: 0.5rem 0;
   }
 }
@@ -161,7 +161,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/dogs.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,6 +180,7 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+  margin-top:-6rem;
 }
 .banner h1 {
   font-size: 2.5rem;
@@ -192,7 +193,7 @@ h6 {
 }
 .banner p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 576px) {
   .banner {
