@@ -42,7 +42,7 @@ export default class SingleRoom extends Component {
       price,
       extras,
       breakfast,
-      pets,
+      pool,
       images,
     } = room;
     const [mainImg, ...defaultImg] = images;
@@ -74,7 +74,7 @@ export default class SingleRoom extends Component {
                 max-capacity:{" "}
                 {capacity > 1 ? `${capacity} people` : `${capacity} person`}
               </h6>
-              <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
+              <h6>{pool ? "pool included" : "pool not included"}</h6>
               <h6>{breakfast && "free breakfast included"}</h6>
             </article>
           </div>
