@@ -538,7 +538,8 @@ h6 {
 }
 
 .footer-container li {
-  padding-top:2rem;
+  padding:2rem 6rem ;
+  text-transform: capitalize;
   margin-left: 2rem;
   list-style: none;
   display: inline-block;
