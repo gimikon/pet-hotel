@@ -538,7 +538,7 @@ h6 {
 }
 
 .footer-container li {
-  padding: 5rem 9rem;
+  padding-top:2rem;
   margin-left: 2rem;
   list-style: none;
   display: inline-block;
