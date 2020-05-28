@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +24,7 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Chelsea Market", sans-serif;
   line-height: 1.4;
 }
 h1 {
@@ -66,6 +68,10 @@ h6 {
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.button {
+  background-color: pink;
 }
 .btn-primary:hover {
   background: transparent;
@@ -165,10 +171,15 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 6rem;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
-  min-height: 60vh;
+  background-image: url("./images/image-dog.jpg");
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
 }
 /* End of Hero */
 /* Banner */
@@ -180,7 +191,7 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
-  margin-top:-6rem;
+  margin-top: -6rem;
 }
 .banner h1 {
   font-size: 2.5rem;
@@ -255,10 +266,13 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
+  font-size: 0.95rem;
   margin: 0 auto;
+  font-weight: lighter;
 }
 @media screen and (min-width: 992px) {
   .services-center {
@@ -514,3 +528,19 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+/* footer beginning*/
+
+.footer-container {
+  display: flex;
+  background-color: var(--primaryColor);
+  justify-content: space-around;
+  min-height: 10vh;
+}
+
+.footer-container li {
+  padding: 5rem 9rem;
+  margin-left: 2rem;
+  list-style: none;
+  display: inline-block;
+  color:var(--mainGrey);
+}
